@@ -1,0 +1,84 @@
+########################################################################
+#### Include this file in your Arduino folder normaly found at:     ####
+#### ..\AppData\Local\arduino15\packages\arduino\hardware\avr\1.8.1 ####
+########################################################################
+
+corsair_LNP.name=Corsair Ligthing Node PRO
+corsair_LNP.vid.0=0x2341
+corsair_LNP.pid.0=0x0036
+corsair_LNP.vid.1=0x2341
+corsair_LNP.pid.1=0x8036
+corsair_LNP.vid.2=0x2A03
+corsair_LNP.pid.2=0x0036
+corsair_LNP.vid.3=0x2A03
+corsair_LNP.pid.3=0x8036
+
+corsair_LNP.upload.tool=avrdude
+corsair_LNP.upload.protocol=avr109
+corsair_LNP.upload.maximum_size=28672
+corsair_LNP.upload.maximum_data_size=2560
+corsair_LNP.upload.speed=57600
+corsair_LNP.upload.disable_flushing=true
+corsair_LNP.upload.use_1200bps_touch=true
+corsair_LNP.upload.wait_for_upload_port=true
+
+corsair_LNP.bootloader.tool=avrdude
+corsair_LNP.bootloader.low_fuses=0xff
+corsair_LNP.bootloader.high_fuses=0xd8
+corsair_LNP.bootloader.extended_fuses=0xcb
+corsair_LNP.bootloader.file=caterina/Caterina-Leonardo.hex
+corsair_LNP.bootloader.unlock_bits=0x3F
+corsair_LNP.bootloader.lock_bits=0x2F
+
+corsair_LNP.build.mcu=atmega32u4
+corsair_LNP.build.f_cpu=16000000L
+corsair_LNP.build.vid=0x1b1c                        // Update with new version
+corsair_LNP.build.pid=0x0c0b                        // Update with new version
+corsair_LNP.build.usb_product="Lighting Node PRO"   // Update with new version
+corsair_LNP.build.usb_manufacturer="Corsair"        // Update with new version
+corsair_LNP.build.board=AVR_LEONARDO
+corsair_LNP.build.core=arduino
+corsair_LNP.build.variant=leonardo
+corsair_LNP.build.extra_flags={build.usb_flags} '-DSERIAL_NUMBER="FB66DF55421900F5"'  // Update with new version
+
+####################################################################
+
+corsair_CP.name=Corsair Cormander PRO
+corsair_CP.vid.0=0x2341
+corsair_CP.pid.0=0x0036
+corsair_CP.vid.1=0x2341
+corsair_CP.pid.1=0x8036
+corsair_CP.vid.2=0x2A03
+corsair_CP.pid.2=0x0036
+corsair_CP.vid.3=0x2A03
+corsair_CP.pid.3=0x8036
+
+corsair_CP.upload.tool=avrdude
+corsair_CP.upload.protocol=avr109
+corsair_CP.upload.maximum_size=28672
+corsair_CP.upload.maximum_data_size=2560
+corsair_CP.upload.speed=57600
+corsair_CP.upload.disable_flushing=true
+corsair_CP.upload.use_1200bps_touch=true
+corsair_CP.upload.wait_for_upload_port=true
+
+corsair_CP.bootloader.tool=avrdude
+corsair_CP.bootloader.low_fuses=0xff
+corsair_CP.bootloader.high_fuses=0xd8
+corsair_CP.bootloader.extended_fuses=0xcb
+corsair_CP.bootloader.file=caterina/Caterina-Leonardo.hex
+corsair_CP.bootloader.unlock_bits=0x3F
+corsair_CP.bootloader.lock_bits=0x2F
+
+corsair_CP.build.mcu=atmega32u4
+corsair_CP.build.f_cpu=16000000L
+corsair_CP.build.vid=0x1b1c                   // Update with new version
+corsair_CP.build.pid=0x0c10                   // Update with new version
+corsair_CP.build.usb_product="Commander PRO"  // Update with new version
+corsair_CP.build.usb_manufacturer="Corsair"   // Update with new version
+corsair_CP.build.board=AVR_LEONARDO
+corsair_CP.build.core=arduino
+corsair_CP.build.variant=leonardo
+corsair_CP.build.extra_flags={build.usb_flags} '-DSERIAL_NUMBER="FB66DF55421900F5"' // Update with new version
+
+####################################################################

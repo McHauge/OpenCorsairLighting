@@ -5,9 +5,9 @@ OpenCorsairLighting
 
 Custom PCB for single and dual Node Pro / Comander Pro device, using motherboard USB and a Molex/SATA power.
 
-**software available here:** https://github.com/Legion2/CorsairLightingProtocol
+**Software available here:** https://github.com/Legion2/CorsairLightingProtocol
 
-**PCB layout and design can be found here:** https://easyeda.com/OpenCorsairLighting
+**PCB layout and design can be found in the hardware folder or at this link:** https://easyeda.com/OpenCorsairLighting
 
 
 ## License
