@@ -17,5 +17,9 @@ These boards are bassed on the "Arduino Leonardo", and not the "Spark Pro Micro"
 Both PCB's and components can be ordered directly from the link. 
 After producing 10pcs of the V1.0 they ended up around 8-10$ per unit
 
+## Related projects
+- [CorsairLightingProtocol](https://github.com/Legion2/CorsairLightingProtocol)
+- [CorsairArduinoController](https://github.com/TylerSeiford/CorsairArduinoController)
+
 ## License
-[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FMcHauge%2FOpenCorsairLighting.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FMcHauge%2FOpenCorsairLighting?ref=badge_large)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FMcHauge%2FOpenCorsairLighting.svg?type=small)](https://app.fossa.io/projects/git%2Bgithub.com%2FMcHauge%2FOpenCorsairLighting?ref=badge_small)
